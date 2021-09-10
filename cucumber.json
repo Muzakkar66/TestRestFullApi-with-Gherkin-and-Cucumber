@@ -1,0 +1,685 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "testapi-service;getproductlist",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "getProductList",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A Product List {\"id\": \"61388d0353b69e13fce83952\", \"VendorId\": \"4\",\"PizzaName\": \"Special Pizza\", \"PizzaDescrpation\": \"This is the Description\", \"PizzaPrice\": \"500\"}",
+            "match": {
+              "location": "src\\steps\\testApi.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I make a GET request to \"http://localhost:5000/product/getProductList\"",
+            "match": {
+              "location": "src\\steps\\testApi.step.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3072000000,
+              "error_message": "Error: Timeout reached\n    at ClientRequest.<anonymous> (C:\\Muzakkar\\learning stuff\\Cucumber\\Testing Rest Full API\\api-swaggar-node.js\\node_modules\\centra\\model\\CentraRequest.js:177:14)\n    at Object.onceWrapper (events.js:482:28)\n    at ClientRequest.emit (events.js:376:20)\n    at Socket.emitRequestTimeout (_http_client.js:790:9)\n    at Object.onceWrapper (events.js:482:28)\n    at Socket.emit (events.js:388:22)\n    at Socket._onTimeout (net.js:483:8)\n    at listOnTimeout (internal/timers.js:555:17)\n    at processTimers (internal/timers.js:498:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I get response code 200",
+            "match": {
+              "location": "src\\steps\\testApi.step.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi-service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testapi-service;getproductlist",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "getProductList",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A Product List {\"id\": \"60efef4a85b8412388319202\", \"VendorId\": \"4\",\"PizzaName\": \"Sada Pizza\", \"PizzaDescrpation\": \"This is the description of Simple agg Pizza\", \"PizzaPrice\": \"700\"}",
+            "match": {
+              "location": "src\\steps\\testApi.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I make a GET request to \"http://localhost:5000/product/getProductList\"",
+            "match": {
+              "location": "src\\steps\\testApi.step.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3075000000,
+              "error_message": "Error: Timeout reached\n    at ClientRequest.<anonymous> (C:\\Muzakkar\\learning stuff\\Cucumber\\Testing Rest Full API\\api-swaggar-node.js\\node_modules\\centra\\model\\CentraRequest.js:177:14)\n    at Object.onceWrapper (events.js:482:28)\n    at ClientRequest.emit (events.js:376:20)\n    at Socket.emitRequestTimeout (_http_client.js:790:9)\n    at Object.onceWrapper (events.js:482:28)\n    at Socket.emit (events.js:388:22)\n    at Socket._onTimeout (net.js:483:8)\n    at listOnTimeout (internal/timers.js:555:17)\n    at processTimers (internal/timers.js:498:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I get response code 200",
+            "match": {
+              "location": "src\\steps\\testApi.step.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi-service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testapi-service;getsingleproduct",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "GetSingleProduct",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "A Single Product {\"id\": \"60f63757a1e1cc2c9865aadd\"}",
+            "match": {
+              "location": "src\\steps\\getSingleProduct.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I make a product GET request to \"http://localhost:5000/product/getProduct\"",
+            "match": {
+              "location": "src\\steps\\getSingleProduct.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I get single product, response code 200",
+            "match": {
+              "location": "src\\steps\\getSingleProduct.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi-service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testapi-service;saveproduct",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "SaveProduct",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "A Product Request {\"VendorId\": 5,\"PizzaName\": \"new posted\", \"PizzaDescrpation\": \"new posted testingApi1 is the Description\", \"PizzaPrice\": 444}",
+            "match": {
+              "location": "src\\steps\\postProduct.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I send POST request to \"http://localhost:5000/product/saveProduct\"",
+            "match": {
+              "location": "src\\steps\\postProduct.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I get product response code 200",
+            "match": {
+              "location": "src\\steps\\postProduct.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi-service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testapi-service;saveproduct",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "SaveProduct",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "A Product Request {\"VendorId\": \"3\",\"PizzaName\": \"new posted 2\", \"PizzaDescrpation\": \"new posted testingApi2 33dg 2This is the description of Simple agg Pizza\", \"PizzaPrice\": \"111\"}",
+            "match": {
+              "location": "src\\steps\\postProduct.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I send POST request to \"http://localhost:5000/product/saveProduct\"",
+            "match": {
+              "location": "src\\steps\\postProduct.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I get product response code 200",
+            "match": {
+              "location": "src\\steps\\postProduct.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi-service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testapi-service;updateproduct",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "updateProduct",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "A Product for update {\"_id\":\"60f63757a1e1cc2c9865aadd\", \"VendorId\": 2,\"PizzaName\": \"Special Pizza newupdated11\", \"PizzaDescrpation\": \"This is the Description updated\", \"PizzaPrice\": 500}",
+            "match": {
+              "location": "src\\steps\\productUpdate.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I send PUT request to \"http://localhost:5000/product/updateProduct\"",
+            "match": {
+              "location": "src\\steps\\productUpdate.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I get updated product response code 200",
+            "match": {
+              "location": "src\\steps\\productUpdate.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi-service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testapi-service;deleteproduct",
+        "keyword": "Scenario Outline",
+        "line": 42,
+        "name": "deleteProduct",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "A Product for delete {\"id\":\"61388d0453b69e13fce83954\"}",
+            "match": {
+              "location": "src\\steps\\deleteProduct.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I send DELETE request to \"http://localhost:5000/product/deleteProduct\"",
+            "match": {
+              "location": "src\\steps\\deleteProduct.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I get product after deleted, response code 200",
+            "match": {
+              "location": "src\\steps\\deleteProduct.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi-service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "testapi-service",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "testApi service",
+    "tags": [
+      {
+        "name": "@testApi-service",
+        "line": 1
+      }
+    ],
+    "uri": "src\\features\\testApi.feature"
+  }
+]
